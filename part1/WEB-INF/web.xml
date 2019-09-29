@@ -1,0 +1,63 @@
+<web-app>
+	<servlet>
+		<servlet-name>request</servlet-name>
+		<servlet-class>RequestHeader</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>request</servlet-name>
+		<url-pattern>/header</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>form</servlet-name>
+		<servlet-class>Form</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>form</servlet-name>
+		<url-pattern>/display1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>form2</servlet-name>
+		<servlet-class>Form2</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>form2</servlet-name>
+		<url-pattern>/display2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>form3</servlet-name>
+		<servlet-class>Form3</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>form3</servlet-name>
+		<url-pattern>/display3</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ques</servlet-name>
+		<servlet-class>Ques</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ques</servlet-name>
+		<url-pattern>/ques/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>shopServlet</servlet-name>
+		<servlet-class>Shopping</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>shopServlet</servlet-name>
+		<url-pattern>/shop/*</url-pattern>
+	</servlet-mapping>
+	
+	
+</web-app>
